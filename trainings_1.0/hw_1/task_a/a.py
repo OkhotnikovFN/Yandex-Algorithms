@@ -1,9 +1,18 @@
-def determine_temperature(mode, t_room, t_cond):
-    """Функция определения температуры в комнате"""
+def determine_temperature(mode: str, t_room: int, t_cond: int) -> int:
+    """
+    Функция определения температуры в комнате.
+        Параметры:
+            mode: режим работы кондиционера
+            t_room(int): температура в комнате
+            t_cond(int): температура установленная на кондиционере
+        Возвращаемое значение:
+            t_room_final(int): температура в комнате через час
+    """
     if mode == 'auto' or (mode == 'heat' and t_room < t_cond) or (mode == 'freeze' and t_room > t_cond):
-        return t_cond
+        t_room_final = t_cond
     else:
-        return t_room
+        t_room_final = t_room
+    return t_room_final
 
 
 def main():
