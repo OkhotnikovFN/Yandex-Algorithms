@@ -21,7 +21,7 @@
 ---
 ## Ссылки на основные страницы
 
-- [Решения задач 1.0]()
+- [Решения задач 1.0](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0)
 - [Решения задач 2.0]()
 ---
 ## Комментарии
