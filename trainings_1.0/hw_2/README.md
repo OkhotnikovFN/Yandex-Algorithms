@@ -17,13 +17,13 @@
 ---
 ## Решения задач
 
-- [A. Возрастает ли список? (еще не готово)]()
-- [B. Определить вид последовательности (еще не готово)]()
-- [C. Ближайшее число (еще не готово)]()
-- [D. Больше своих соседей (еще не готово)]()
-- [E. Чемпионат по метанию коровьих лепешек (еще не готово)]()
-- [F. Симметричная последовательность (еще не готово)]()
-- [G. Наибольшее произведение двух чисел (еще не готово)]()
-- [H. Наибольшее произведение трех чисел (еще не готово)]()
-- [I. Сапер (еще не готово)]()
-- [J. Треугольник Максима (еще не готово)]()
+- [A. Возрастает ли список? (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_2/task_a)
+- [B. Определить вид последовательности (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_2/task_b)
+- [C. Ближайшее число (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_2/task_c)
+- [D. Больше своих соседей (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_2/task_d)
+- [E. Чемпионат по метанию коровьих лепешек (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_2/task_e)
+- [F. Симметричная последовательность (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_2/task_f)
+- [G. Наибольшее произведение двух чисел (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_2/task_g)
+- [H. Наибольшее произведение трех чисел (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_2/task_h)
+- [I. Сапер (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_2/task_i)
+- [J. Треугольник Максима (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_2/task_j)
