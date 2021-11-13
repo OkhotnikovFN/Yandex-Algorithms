@@ -19,9 +19,9 @@
 
 - [A. Кондиционер](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_1/task_a)
 - [B. Треугольник](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_1/task_b)
-- [C. Телефонные номера (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_1/task_c)
-- [D. Уравнение с корнем (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_1/task_d)
-- [E. Скорая помощь (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_1/task_e)
+- [C. Телефонные номера](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_1/task_c)
+- [D. Уравнение с корнем](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_1/task_d)
+- [E. Скорая помощь](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_1/task_e)
 - [F. Расстановка ноутбуков (еще не готово)]()
 - [G. Детали (еще не готово)]()
 - [H. Метро (еще не готово)]()
