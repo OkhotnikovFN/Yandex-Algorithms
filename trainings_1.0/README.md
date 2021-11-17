@@ -17,8 +17,8 @@
 
 - [Решение ДЗ к лекции 1](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_1)
 - [Решение ДЗ к лекции 2](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_2)
-- [Решение ДЗ к лекции 3 (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_3)
-- [Решение ДЗ к лекции 4 (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_4)
+- [Решение ДЗ к лекции 3](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_3)
+- [Решение ДЗ к лекции 4](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_4)
 - [Решение ДЗ к лекции 5 (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_5)
 - [Решение ДЗ к лекции 6 (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_6)
 - [Решение ДЗ к лекции 7 (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_7)

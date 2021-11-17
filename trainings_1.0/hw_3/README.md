@@ -17,13 +17,13 @@
 ---
 ## Решения задач
 
-- [A. Количество различных чисел (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_3/task_a)
-- [B. Пересечение множеств (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_3/task_b)
-- [C. Кубики (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_3/task_c)
-- [D. Количество слов в тексте (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_3/task_d)
-- [E. OpenCalculator (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_3/task_e)
-- [F. Инопланетный геном (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_3/task_f)
-- [G. Черепахи (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_3/task_g)
-- [H. Злые свинки (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_3/task_h)
-- [I. Полиглоты (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_3/task_i)
-- [J. Пробежки по Манхэттену (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_3/task_j)
+- [A. Количество различных чисел](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_3/task_a)
+- [B. Пересечение множеств](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_3/task_b)
+- [C. Кубики](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_3/task_c)
+- [D. Количество слов в тексте](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_3/task_d)
+- [E. OpenCalculator](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_3/task_e)
+- [F. Инопланетный геном](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_3/task_f)
+- [G. Черепахи](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_3/task_g)
+- [H. Злые свинки](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_3/task_h)
+- [I. Полиглоты](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_3/task_i)
+- [J. Пробежки по Манхэттену](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_3/task_j)
