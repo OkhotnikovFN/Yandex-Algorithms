@@ -17,13 +17,13 @@
 ---
 ## Решения задач
 
-- [A. Наблюдение за студентами (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_7/task_a)
-- [B. Точки и отрезки (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_7/task_b)
-- [C. Рассадка в аудитории (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_7/task_c)
-- [D. Реклама (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_7/task_d)
-- [E. Кассы (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_7/task_e)
-- [F. Современники (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_7/task_f)
-- [G. Детский праздник (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_7/task_g)
-- [H. Охрана (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_7/task_h)
-- [I. Автобусы (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_7/task_i)
-- [J. НГУ-стройка (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_7/task_j)
+- [A. Наблюдение за студентами](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_7/task_a)
+- [B. Точки и отрезки](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_7/task_b)
+- [C. Рассадка в аудитории](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_7/task_c)
+- [D. Реклама](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_7/task_d)
+- [E. Кассы](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_7/task_e)
+- [F. Современники](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_7/task_f)
+- [G. Детский праздник](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_7/task_g)
+- [H. Охрана](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_7/task_h)
+- [I. Автобусы](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_7/task_i)
+- [J. НГУ-стройка](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_7/task_j)
