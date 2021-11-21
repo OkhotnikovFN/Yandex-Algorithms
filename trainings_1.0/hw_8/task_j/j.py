@@ -55,8 +55,8 @@ def main():
         input_list.append(input().split())
     results = get_nodes_depth(input_list)
 
-    for name, descendants_count in results:
-        print(name, descendants_count)
+    for name, depth in results:
+        print(name, depth)
 
 
 if __name__ == '__main__':
