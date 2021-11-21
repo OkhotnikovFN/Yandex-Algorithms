@@ -22,4 +22,4 @@
 - [Решение ДЗ к лекции 5](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_5)
 - [Решение ДЗ к лекции 6](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_6)
 - [Решение ДЗ к лекции 7](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_7)
-- [Решение ДЗ к лекции 8 (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_8)
+- [Решение ДЗ к лекции 8](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0/hw_8)

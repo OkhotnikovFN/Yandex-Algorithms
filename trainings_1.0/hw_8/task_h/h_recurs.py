@@ -27,69 +27,65 @@ class BinTree:
     Бинарное дерево.
     """
     def __init__(self):
-        self.tree_height = 0
         self.root = TreeNode(None)
 
-    @staticmethod
-    def get_or_set_node_child(tree_node: TreeNode, new_node: TreeNode, is_left_child: bool = True) -> TreeNode:
-        """
-        Функция, которая получает или устанавливает потомка для узла дерева tree_node.
-            Параметры:
-                :param tree_node: узел дерева
-                :type tree_node: TreeNode
-                :param new_node: новый левый потомок
-                :type new_node: TreeNode
-                :param is_left_child: булево значение, является ли потомок левым
-                :type is_left_child: bool
-            Возвращаемое значение:
-                :return: текущий левый потомок узла дерева tree_node
-                :rtype: TreeNode
-        """
-        if is_left_child:
-            node_child = tree_node.left
-        else:
-            node_child = tree_node.right
+    @property
+    def tree_height(self):
+        return max(self.root.left_sub_tree_height, self.root.right_sub_tree_height) + 1
 
-        if node_child is None:
-            if is_left_child:
-                tree_node.left = new_node
-            else:
-                tree_node.right = new_node
-            new_node.parent = tree_node
-        else:
-            new_node = node_child
-
-        return new_node
-
-    def add_node(self, new_value: int) -> Tuple[TreeNode, bool]:
+    def add_node(self, new_value: int) -> TreeNode:
         """
-        Функция, которая добавляет новый узел в бинарное дерево и вычисляет новую получившуюся высоту.
+        Функция, которая добавляет новый узел в бинарное дерево.
             Параметры:
                 :param new_value: добавляемое значение
                 :type new_value: int
             Возвращаемое значение:
-                :return: сущность нового узла и флаг добавления узла в дерево
+                :return: сущность нового узла
                 :rtype: int
         """
-        add_flag = True
-        new_node = TreeNode(None)
-        cur_root = self.root
-        cur_height = 1
-        while cur_root.value:
-            if new_value < cur_root.value:
-                cur_root = self.get_or_set_node_child(cur_root, new_node)
-            elif new_value > cur_root.value:
-                cur_root = self.get_or_set_node_child(cur_root, new_node, False)
-            else:
-                add_flag = False
-                break
-            cur_height += 1
+        result = self._add_node(self.root, new_value)
+        return result
 
-        cur_root.value = new_value
-        cur_root.node_height = cur_height
-        self.tree_height = max(self.tree_height, cur_height)
+    def _add_node(self, cur_root: TreeNode, new_value: int) -> TreeNode:
+        """
+        Функция, которая рекурсивно добавляет новый узел в бинарное дерево.
+            Параметры:
+                :param cur_root: обследуемый узел
+                :type cur_root: TreeNode
+                :param new_value: добавляемое значение
+                :type new_value: int
+            Возвращаемое значение:
+                :return: сущность нового узла
+                :rtype: int
+        """
+        if cur_root.value is None:
+            cur_root.value = new_value
+            return cur_root
 
-        return cur_root, add_flag
+        if new_value == cur_root.value:
+            return cur_root
+
+        if new_value < cur_root.value:
+            if cur_root.left:
+                result = self._add_node(cur_root.left, new_value)
+                cur_root.left_sub_tree_height = max(cur_root.left.left_sub_tree_height,
+                                                    cur_root.left.right_sub_tree_height) + 1
+                return result
+            cur_root.left_sub_tree_height = 1
+            cur_root.left = TreeNode(new_value)
+            cur_root.left.parent = cur_root
+            return cur_root.left
+
+        if new_value > cur_root.value:
+            if cur_root.right:
+                result = self._add_node(cur_root.right, new_value)
+                cur_root.right_sub_tree_height = max(cur_root.right.left_sub_tree_height,
+                                                     cur_root.right.right_sub_tree_height) + 1
+                return result
+            cur_root.right_sub_tree_height = 1
+            cur_root.right = TreeNode(new_value)
+            cur_root.right.parent = cur_root
+            return cur_root.right
 
     def check_avl_balance(self) -> bool:
         """
@@ -99,15 +95,14 @@ class BinTree:
                 :rtype: List[int]
         """
         is_avl = True
-        for node in self._get_all_elements(self.root)[0]:
+        for node in self._get_all_elements(self.root):
             is_avl = is_avl and abs(node.left_sub_tree_height - node.right_sub_tree_height) <= 1
             if not is_avl:
                 break
 
         return is_avl
 
-    def _get_all_elements(self, node: TreeNode, cur_height=0,
-                          elements: Union[List[TreeNode], None] = None) -> Tuple[List[TreeNode], int]:
+    def _get_all_elements(self, node: TreeNode, elements: Union[List[TreeNode], None] = None) -> List[TreeNode]:
         """
         Функция, которая рекурсивно обходит дерево и выводит список элементов в порядке возрастания.
             Параметры:
@@ -116,22 +111,18 @@ class BinTree:
                 :param elements: список элементов
                 :type elements: Union[List[TreeNode], None]
             Возвращаемое значение:
-                :return: список элементов в порядке возрастания, текущую глубину поддерева
+                :return: список элементов в порядке возрастания
                 :rtype: List[TreeNode]
         """
         if elements is None:
             elements = []
-
         if node.left:
-            cur_height = self._get_all_elements(node.left, cur_height, elements)[1]
-            node.left_sub_tree_height = cur_height
+            self._get_all_elements(node.left, elements)
         elements.append(node)
         if node.right:
-            cur_height = self._get_all_elements(node.right, cur_height, elements)[1]
-            node.right_sub_tree_height = cur_height
-        cur_height = max(node.right_sub_tree_height, node.left_sub_tree_height) + 1
+            self._get_all_elements(node.right, elements)
 
-        return elements, cur_height
+        return elements
 
 
 def check_tree_avl_balance(input_list: List[int]) -> Tuple[BinTree, bool]:
