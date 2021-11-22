@@ -1,4 +1,4 @@
-# Решение контестов по [янлекса по алгоритмам 2.0](https://yandex.ru/yaintern/algorithm-training#schedule) (осень 2021)
+# Решение контестов по [яндекса по алгоритмам 2.0](https://yandex.ru/yaintern/algorithm-training#schedule) (осень 2021)
 
 ---
 ## Лекции

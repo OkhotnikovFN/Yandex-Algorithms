@@ -22,7 +22,7 @@
 ## Ссылки на решения задач
 
 - [Решения задач 1.0](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_1.0)
-- [Решения задач 2.0 (еще не готово)]()
+- [Решения задач 2.0 (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0)
 ---
 ## Комментарии
 

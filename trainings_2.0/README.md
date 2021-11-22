@@ -3,5 +3,5 @@
 ---
 ## Решения контестов
 
-- [дивизион А]()
-- [дивизион В]()
+- [дивизион А](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_a)
+- [дивизион В](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b)
