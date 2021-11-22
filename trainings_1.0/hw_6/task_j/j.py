@@ -4,16 +4,16 @@ from typing import List
 def merge_seq(seq_1: List[int], seq_2: List[int], seq_length) -> int:
     """
     Функция вычисляет левую медиану объединения последовательностей seq_1 и seq_2.
-        Параметры:
-            :param seq_1: отсортированный список с числами
-            :type seq_1: List[int]
-            :param seq_2: отсортированный список с числами
-            :type seq_2: List[int]
-            :param seq_length: длинна последовательностей
-            :type seq_length: int
-        Возвращаемое значение:
-            :return: медиана объединения последовательностей
-            :rtype: int
+
+    :param seq_1: отсортированный список с числами
+    :type seq_1: List[int]
+    :param seq_2: отсортированный список с числами
+    :type seq_2: List[int]
+    :param seq_length: длинна последовательностей
+    :type seq_length: int
+
+    :return: медиана объединения последовательностей
+    :rtype: int
     """
     i_1, i_2 = 0, 0
     counter = 0

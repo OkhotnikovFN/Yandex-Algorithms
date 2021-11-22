@@ -4,12 +4,12 @@ import re
 def get_synonym(file_name: str) -> str:
     """
     Функция которая которая по приведенной программе определяет наиболее часто используемый в ней идентификатор.
-        Параметры:
-            :param file_name: имя файла с данными
-            :type file_name: str
-        Возвращаемое значение:
-            :return: наиболее часто используемый идентификатор
-            :rtype: str
+
+    :param file_name: имя файла с данными
+    :type file_name: str
+
+    :return: наиболее часто используемый идентификатор
+    :rtype: str
     """
     file = open(file_name, 'r')
 

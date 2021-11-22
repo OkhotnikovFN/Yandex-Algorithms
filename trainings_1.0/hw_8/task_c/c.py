@@ -9,9 +9,9 @@ class TreeNode:
         """
         Инициализация нового узла, которому присваивается значение value, но отсутствует информация о родителе
         и отсутствуют потомки.
-            Параметры:
-                :param value: значение узла дерева
-                :type value: Union[int, None]
+
+        :param value: значение узла дерева
+        :type value: Union[int, None]
         """
         self.value = value
         self.parent = None
@@ -32,16 +32,16 @@ class BinTree:
     def get_or_set_node_child(tree_node: TreeNode, new_node: TreeNode, is_left_child: bool = True) -> TreeNode:
         """
         Функция, которая получает или устанавливает левого потомка для узла дерева tree_node.
-            Параметры:
-                :param tree_node: узел дерева
-                :type tree_node: TreeNode
-                :param new_node: новый левый потомок
-                :type new_node: TreeNode
-                :param is_left_child: булево значение, является ли потомок левым
-                :type is_left_child: bool
-            Возвращаемое значение:
-                :return: текущий левый потомок узла дерева tree_node
-                :rtype: TreeNode
+
+        :param tree_node: узел дерева
+        :type tree_node: TreeNode
+        :param new_node: новый левый потомок
+        :type new_node: TreeNode
+        :param is_left_child: булево значение, является ли потомок левым
+        :type is_left_child: bool
+
+        :return: текущий левый потомок узла дерева tree_node
+        :rtype: TreeNode
         """
         if is_left_child:
             node_child = tree_node.left
@@ -62,12 +62,12 @@ class BinTree:
     def add_node(self, new_value: int) -> Tuple[TreeNode, bool]:
         """
         Функция, которая добавляет новый узел в бинарное дерево и вычисляет новую получившуюся высоту.
-            Параметры:
-                :param new_value: добавляемое значение
-                :type new_value: int
-            Возвращаемое значение:
-                :return: сущность нового узла и флаг добавления узла в дерево
-                :rtype: int
+
+        :param new_value: добавляемое значение
+        :type new_value: int
+
+        :return: сущность нового узла и флаг добавления узла в дерево
+        :rtype: int
         """
         add_flag = True
         new_node = TreeNode(None)
@@ -92,9 +92,9 @@ class BinTree:
     def find_max_value(self) -> int:
         """
         Функция, которая вычисляет максимальное значение в дереве.
-            Возвращаемое значение:
-                :return: максимальное значение в дереве
-                :rtype: int
+
+        :return: максимальное значение в дереве
+        :rtype: int
         """
         cur_root = self.root
 
@@ -110,23 +110,23 @@ class BinTree:
     def find_second_max(self) -> int:
         """
         Функция, которая вычисляет второе по величине значение в дереве.
-            Возвращаемое значение:
-                :return: второе по величине значение в дереве
-                :rtype: int
+
+        :return: второе по величине значение в дереве
+        :rtype: int
         """
         return self._find_second_max(self.root)
 
     def _find_second_max(self, node: TreeNode, went_left_once: bool = False) -> int:
         """
         Функция, которая рекурсивно вычисляет второе по величине значение в дереве.
-            Параметры:
-                :param node: обследуемый узел
-                :type node: TreeNode
-                :param went_left_once: флаг, который обозначает единственный переход в левого ребенка
-                :type went_left_once: bool
-            Возвращаемое значение:
-                :return: второе по величине значение в дереве
-                :rtype: int
+
+        :param node: обследуемый узел
+        :type node: TreeNode
+        :param went_left_once: флаг, который обозначает единственный переход в левого ребенка
+        :type went_left_once: bool
+
+        :return: второе по величине значение в дереве
+        :rtype: int
         """
         if node.right:
             return self._find_second_max(node.right, went_left_once)
@@ -138,12 +138,12 @@ class BinTree:
 def find_second_max_in_tree(input_list: List[int]) -> Tuple[BinTree, int]:
     """
     Функция которая находит второй по величине элемент в бинарном дереве.
-        Параметры:
-            :param input_list: последовательность чисел из которых необходимо построить дерево
-            :type input_list: List[int]
-        Возвращаемое значение:
-            :return: сущность дерева и второй по величине элемент
-            :rtype: int
+
+    :param input_list: последовательность чисел из которых необходимо построить дерево
+    :type input_list: List[int]
+
+    :return: сущность дерева и второй по величине элемент
+    :rtype: int
     """
     bin_tree = BinTree()
     for num in input_list[:-1]:

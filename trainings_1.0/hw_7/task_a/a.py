@@ -8,15 +8,15 @@ END_SCAN = 1
 def get_students_count(events: List[Tuple[int, int]], students_count: int) -> int:
     """
     Функция которая вычисляет количество студентов, которые будут списывать.
-        Параметры:
-            :param events: список c событий, в котором указан номер парты
-            и тип события, связанный с этой партой
-            :type events: List[Tuple[int, int]
-            :param students_count: общее количество студентов
-            :type students_count: int
-        Возвращаемое значение:
-            :return: количество студентов, которые будут списывать
-            :rtype: int
+
+    :param events: список c событий, в котором указан номер парты
+    и тип события, связанный с этой партой
+    :type events: List[Tuple[int, int]
+    :param students_count: общее количество студентов
+    :type students_count: int
+
+    :return: количество студентов, которые будут списывать
+    :rtype: int
     """
     monitored_desks_first = 0
     current_auditor_count = 0

@@ -1,16 +1,16 @@
 def define_details_count(n: int, k: int, m: int) -> int:
     """
     Функция которая вычисляет количество произведенных деталей.
-        Параметры:
-            :param n: вес всего сплава в начале
-            :type n: int
-            :param k: вес одной заготовки
-            :type k: int
-            :param m: вес одной детали
-            :type m: int
-        Возвращаемое значение:
-            :return: количество деталей
-            :rtype: int
+
+    :param n: вес всего сплава в начале
+    :type n: int
+    :param k: вес одной заготовки
+    :type k: int
+    :param m: вес одной детали
+    :type m: int
+
+    :return: количество деталей
+    :rtype: int
     """
     details_count = 0
     if m > k or k > n:

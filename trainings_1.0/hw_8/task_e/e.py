@@ -9,9 +9,9 @@ class TreeNode:
         """
         Инициализация нового узла, которому присваивается значение value, но отсутствует информация о родителе
         и отсутствуют потомки.
-            Параметры:
-                :param value: значение узла дерева
-                :type value: Union[int, None]
+
+        :param value: значение узла дерева
+        :type value: Union[int, None]
         """
         self.value = value
         self.parent = None
@@ -32,16 +32,16 @@ class BinTree:
     def get_or_set_node_child(tree_node: TreeNode, new_node: TreeNode, is_left_child: bool = True) -> TreeNode:
         """
         Функция, которая получает или устанавливает левого потомка для узла дерева tree_node.
-            Параметры:
-                :param tree_node: узел дерева
-                :type tree_node: TreeNode
-                :param new_node: новый левый потомок
-                :type new_node: TreeNode
-                :param is_left_child: булево значение, является ли потомок левым
-                :type is_left_child: bool
-            Возвращаемое значение:
-                :return: текущий левый потомок узла дерева tree_node
-                :rtype: TreeNode
+
+        :param tree_node: узел дерева
+        :type tree_node: TreeNode
+        :param new_node: новый левый потомок
+        :type new_node: TreeNode
+        :param is_left_child: булево значение, является ли потомок левым
+        :type is_left_child: bool
+
+        :return: текущий левый потомок узла дерева tree_node
+        :rtype: TreeNode
         """
         if is_left_child:
             node_child = tree_node.left
@@ -62,12 +62,12 @@ class BinTree:
     def add_node(self, new_value: int) -> Tuple[TreeNode, bool]:
         """
         Функция, которая добавляет новый узел в бинарное дерево и вычисляет новую получившуюся высоту.
-            Параметры:
-                :param new_value: добавляемое значение
-                :type new_value: int
-            Возвращаемое значение:
-                :return: сущность нового узла и флаг добавления узла в дерево
-                :rtype: int
+
+        :param new_value: добавляемое значение
+        :type new_value: int
+
+        :return: сущность нового узла и флаг добавления узла в дерево
+        :rtype: int
         """
         add_flag = True
         new_node = TreeNode(None)
@@ -92,9 +92,9 @@ class BinTree:
     def get_elements_without_child(self) -> List[int]:
         """
         Функция, которая выводит список элементов, не имеющих потомков.
-            Возвращаемое значение:
-                :return: список элементов, не имеющих потомков
-                :rtype: List[int]
+
+        :return: список элементов, не имеющих потомков
+        :rtype: List[int]
         """
         result = []
         for node in self._get_all_elements(self.root):
@@ -106,14 +106,14 @@ class BinTree:
     def _get_all_elements(self, node: TreeNode, elements: Union[List[TreeNode], None] = None) -> List[TreeNode]:
         """
         Функция, которая рекурсивно обходит дерево и выводит список элементов в порядке возрастания.
-            Параметры:
-                :param node: обследуемый узел дерева
-                :type node: TreeNode
-                :param elements: список элементов
-                :type elements: Union[List[TreeNode], None]
-            Возвращаемое значение:
-                :return: список элементов в порядке возрастания
-                :rtype: List[TreeNode]
+
+        :param node: обследуемый узел дерева
+        :type node: TreeNode
+        :param elements: список элементов
+        :type elements: Union[List[TreeNode], None]
+
+        :return: список элементов в порядке возрастания
+        :rtype: List[TreeNode]
         """
         if elements is None:
             elements = []
@@ -129,12 +129,12 @@ class BinTree:
 def get_tree_elements_without_child(input_list: List[int]) -> Tuple[BinTree, List[int]]:
     """
     Функция которая выводит элементы дерева не имеющие потомков.
-        Параметры:
-            :param input_list: последовательность чисел из которых необходимо построить дерево
-            :type input_list: List[int]
-        Возвращаемое значение:
-            :return: сущность дерева и последовательность элементов дерева не имеющих потомков
-            :rtype: List[int]
+
+    :param input_list: последовательность чисел из которых необходимо построить дерево
+    :type input_list: List[int]
+
+    :return: сущность дерева и последовательность элементов дерева не имеющих потомков
+    :rtype: List[int]
     """
     bin_tree = BinTree()
     for num in input_list[:-1]:

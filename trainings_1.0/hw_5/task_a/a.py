@@ -4,16 +4,16 @@ from typing import List, Tuple
 def find_best_style(undershirts: List[int], pants: List[int], pants_count: int) -> Tuple[int, int]:
     """
     Функция которая определяет лучший стиль.
-        Параметры:
-            :param undershirts: список цветов маек
-            :type undershirts: List[int]
-            :param pants: список цветов штанов
-            :type pants: List[int]
-            :param pants_count: количество цветов штанов
-            :type pants_count: int
-        Возвращаемое значение:
-            :return: цвет майки и цвет штанов
-            :rtype: Tuple[int, int]
+
+    :param undershirts: список цветов маек
+    :type undershirts: List[int]
+    :param pants: список цветов штанов
+    :type pants: List[int]
+    :param pants_count: количество цветов штанов
+    :type pants_count: int
+
+    :return: цвет майки и цвет штанов
+    :rtype: Tuple[int, int]
     """
     min_style = abs(undershirts[0] - pants[0])
     result = undershirts[0], pants[0]

@@ -10,14 +10,14 @@ MAX_AGE = 80
 def get_years(birth_date: Tuple[int, int, int], death_date: Tuple[int, int, int]) -> int:
     """
     Функция которая определяет полное количество лет.
-        Параметры:
-            :param birth_date: дата рождения (год, месяц, день)
-            :type birth_date: Tuple[int, int, int]
-            :param death_date: дата смерти (год, месяц, день)
-            :type death_date: Tuple[int, int, int]
-        Возвращаемое значение:
-            :return: полное количество лет
-            :rtype: int
+
+    :param birth_date: дата рождения (год, месяц, день)
+    :type birth_date: Tuple[int, int, int]
+    :param death_date: дата смерти (год, месяц, день)
+    :type death_date: Tuple[int, int, int]
+
+    :return: полное количество лет
+    :rtype: int
     """
     number_of_years = death_date[0] - birth_date[0]
     if death_date[1] < birth_date[1]:
@@ -31,12 +31,12 @@ def get_years(birth_date: Tuple[int, int, int], death_date: Tuple[int, int, int]
 def find_contemporaries_sets(events: List[Tuple[Tuple[int, int, int], int, int]]) -> List[Set[int]]:
     """
     Функция которая максимальные множества современников.
-        Параметры:
-            :param events: список событий в котором дата события (год, месяц, день), тип события, индекс человека
-            :type events: List[Tuple[Tuple[int, int, int], int, int]]
-        Возвращаемое значение:
-            :return: список максимальных множеств современников
-            :rtype: List[Set[int]
+
+    :param events: список событий в котором дата события (год, месяц, день), тип события, индекс человека
+    :type events: List[Tuple[Tuple[int, int, int], int, int]]
+
+    :return: список максимальных множеств современников
+    :rtype: List[Set[int]
     """
     peoples = {}
     results = []

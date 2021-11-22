@@ -8,15 +8,15 @@ POINT = 0
 def get_count_uniq_numbers(events: List[Tuple[int, int, Union[int]]], points_count: int) -> List[int]:
     """
     Функция которая вычисляет для каждой точки ко скольким отрезкам она принадлежит.
-        Параметры:
-            :param events: список c событий, в котором указана точка на отрезке, и тип события связанный с этой точкой,
-            для исследуемых точек, еще указан порядковый номер точки
-            :type events: List[Tuple[int, int, Union[int]]]
-            :param points_count: количество исследуемых точек
-            :type points_count: int
-        Возвращаемое значение:
-            :return: список с количеством отрезком, к которым принадлежат точки
-            :rtype: List[int]
+
+    :param events: список c событий, в котором указана точка на отрезке, и тип события связанный с этой точкой,
+    для исследуемых точек, еще указан порядковый номер точки
+    :type events: List[Tuple[int, int, Union[int]]]
+    :param points_count: количество исследуемых точек
+    :type points_count: int
+
+    :return: список с количеством отрезком, к которым принадлежат точки
+    :rtype: List[int]
     """
     result = [0] * points_count
     cur_covered_segments_count = 0

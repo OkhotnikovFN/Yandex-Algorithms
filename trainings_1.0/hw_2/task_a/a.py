@@ -4,12 +4,12 @@ from typing import List
 def check_list(checked_list: List) -> str:
     """
     Функция проверяющая список на монотонность возрастания.
-        Параметры:
-            :param checked_list: список который необходимо проверить
-            :type checked_list: str
-        Возвращаемое значение:
-            :return: строковое значение, является ли список монотонно возрастающим
-            :rtype: str
+
+    :param checked_list: список который необходимо проверить
+    :type checked_list: str
+
+    :return: строковое значение, является ли список монотонно возрастающим
+    :rtype: str
     """
     for i in range(1, len(checked_list)):
         if checked_list[i] <= checked_list[i - 1]:

@@ -1,14 +1,14 @@
 def get_synonym(word: str, words_dict: dict) -> str:
     """
     Функция которая получает синоним данного слова.
-        Параметры:
-            :param word: список который необходимо проверить
-            :type word: str
-            :param words_dict: словарь синонимов
-            :type words_dict: dict
-        Возвращаемое значение:
-            :return: синоним к данному слову
-            :rtype: str
+
+    :param word: список который необходимо проверить
+    :type word: str
+    :param words_dict: словарь синонимов
+    :type words_dict: dict
+
+    :return: синоним к данному слову
+    :rtype: str
     """
     return words_dict[word]
 

@@ -1,16 +1,16 @@
 def determine_triangle(a: int, b: int, c: int) -> str:
     """
     Функция определения возможности построения треугольника по трем сторонам.
-        Параметры:
-            :param a: сторона треугольника
-            :type a: int
-            :param b: сторона треугольника
-            :type b: int
-            :param c: сторона треугольника
-            :type c: int
-        Возвращаемое значение:
-            :return: решение о возможности построения треугольника
-            :rtype: str
+
+    :param a: сторона треугольника
+    :type a: int
+    :param b: сторона треугольника
+    :type b: int
+    :param c: сторона треугольника
+    :type c: int
+
+    :return: решение о возможности построения треугольника
+    :rtype: str
     """
     verdict = 'YES' if a < (b + c) and b < (a + c) and c < (a + b) else 'NO'
     return verdict

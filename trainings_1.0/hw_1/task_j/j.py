@@ -7,22 +7,22 @@ def solve_equation(a: float, b: float, c: float,
     Функция которая решает линейное уравнение вида:
     ax + by = e
     cx + dy = f.
-        Параметры:
-            :param a: коэффициент уравнения
-            :type a: float
-            :param b: коэффициент уравнения
-            :type b: float
-            :param c: коэффициент уравнения
-            :type c: float
-            :param d: коэффициент уравнения
-            :type d: float
-            :param e: коэффициент уравнения
-            :type e: float
-            :param f: коэффициент уравнения
-            :type f: float
-        Возвращаемое значение:
-            :return: числовой код решения и само решение, если оно существует
-            :rtype: Union[Tuple[int, str], Tuple[int, str, str], int]
+
+    :param a: коэффициент уравнения
+    :type a: float
+    :param b: коэффициент уравнения
+    :type b: float
+    :param c: коэффициент уравнения
+    :type c: float
+    :param d: коэффициент уравнения
+    :type d: float
+    :param e: коэффициент уравнения
+    :type e: float
+    :param f: коэффициент уравнения
+    :type f: float
+
+    :return: числовой код решения и само решение, если оно существует
+    :rtype: Union[Tuple[int, str], Tuple[int, str, str], int]
     """
     x = y = sign = None
     defa = a * d - c * b

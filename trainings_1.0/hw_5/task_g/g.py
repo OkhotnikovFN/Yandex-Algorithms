@@ -4,14 +4,14 @@ from typing import Iterator
 def get_count_possible_variations(max_diff: int, cards: Iterator) -> int:
     """
     Функция которая определяет количество различных вариантов счета, которые можно показать на табло.
-        Параметры:
-            :param max_diff: коэффициент максимального различия баллов
-            :type max_diff: int
-            :param cards: итератор значений чисел на карточках
-            :type cards: Iterator
-        Возвращаемое значение:
-            :return: количество возможных вариантов
-            :rtype: int
+
+    :param max_diff: коэффициент максимального различия баллов
+    :type max_diff: int
+    :param cards: итератор значений чисел на карточках
+    :type cards: Iterator
+
+    :return: количество возможных вариантов
+    :rtype: int
     """
     cards_dict = {}
     uniq_cards = []

@@ -4,16 +4,16 @@ from typing import List
 def bin_search(number: int, input_list: List[int], length_input_list: int) -> int:
     """
     Функция левого бинарного поиска ближайшего к number числа в последовательности.
-        Параметры:
-            :param input_list: отсортированный список с числами
-            :type input_list: List[int]
-            :param number: искомое число
-            :type number: int
-            :param length_input_list: длинна input_list
-            :type length_input_list: int
-        Возвращаемое значение:
-            :return: ближайшее число в списке к искомому
-            :rtype: int
+
+    :param input_list: отсортированный список с числами
+    :type input_list: List[int]
+    :param number: искомое число
+    :type number: int
+    :param length_input_list: длинна input_list
+    :type length_input_list: int
+
+    :return: ближайшее число в списке к искомому
+    :rtype: int
     """
     left = 0
     right = length_input_list - 1

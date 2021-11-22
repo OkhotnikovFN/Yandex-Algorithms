@@ -7,14 +7,14 @@ MAX_POWER = 1000
 def find_min_cost(required_powers: List[int], conditioners: dict) -> int:
     """
     Функция которая определяет минимальную суммарную стоимость кондиционеров.
-        Параметры:
-            :param required_powers: список требуемых минимальных мощностей кондиционеров
-            :type required_powers: List[int]
-            :param conditioners: словарь, в котором ключом является мощность кондиционера, а значением - его стоимость
-            :type conditioners: dict
-        Возвращаемое значение:
-            :return: суммарная минимальная стоимость кондиционеров
-            :rtype: int
+
+    :param required_powers: список требуемых минимальных мощностей кондиционеров
+    :type required_powers: List[int]
+    :param conditioners: словарь, в котором ключом является мощность кондиционера, а значением - его стоимость
+    :type conditioners: dict
+
+    :return: суммарная минимальная стоимость кондиционеров
+    :rtype: int
     """
     conditioners_prices = [(power, price) for power, price in conditioners.items()]
     conditioners_power_prices = [float('inf')] * (MAX_POWER + 1)

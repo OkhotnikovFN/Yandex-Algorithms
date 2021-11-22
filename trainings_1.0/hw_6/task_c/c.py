@@ -1,16 +1,16 @@
 def get_desk_side(width: int, height: int, diploma_count: int) -> int:
     """
     Функция вычисления минимального размера стороны квадратной доски.
-        Параметры:
-            :param width: ширина диплома
-            :type width: int
-            :param height: высота диплома
-            :type height: int
-            :param diploma_count: количество дипломов
-            :type diploma_count: int
-        Возвращаемое значение:
-            :return: минимальный размер стороны квадратной доски
-            :rtype: int
+
+    :param width: ширина диплома
+    :type width: int
+    :param height: высота диплома
+    :type height: int
+    :param diploma_count: количество дипломов
+    :type diploma_count: int
+
+    :return: минимальный размер стороны квадратной доски
+    :rtype: int
     """
     left = max(width, height)
     right = left * diploma_count

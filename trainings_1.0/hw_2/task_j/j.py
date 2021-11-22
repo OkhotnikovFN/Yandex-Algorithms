@@ -9,15 +9,15 @@ CLOSER = 'closer'
 def find_frequency_bounds(first_freq: float, freq_list: List[Tuple[float, str]]) -> Tuple[int, int]:
     """
     Функция определяет, в каком интервале может находиться частота звучания треугольника.
-        Параметры:
-            :param first_freq: первая частота
-            :type first_freq: float
-            :param freq_list: список оставшихся частот, с пометкой ближе или дальше частота звучания тюнера
-            к частоте звучания треугольника по сравнению с предыдущей частотой
-            :type freq_list: List[Tuple[float, str]
-        Возвращаемое значение:
-            :return: tuple с нижней и верхней границами звучания треугольника
-            :rtype: Tuple[int, int]
+
+    :param first_freq: первая частота
+    :type first_freq: float
+    :param freq_list: список оставшихся частот, с пометкой ближе или дальше частота звучания тюнера
+    к частоте звучания треугольника по сравнению с предыдущей частотой
+    :type freq_list: List[Tuple[float, str]
+
+    :return: tuple с нижней и верхней границами звучания треугольника
+    :rtype: Tuple[int, int]
     """
     freq_min = LEFT_BOUND
     freq_max = RIGHT_BOUND

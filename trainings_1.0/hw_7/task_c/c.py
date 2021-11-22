@@ -8,14 +8,14 @@ STUDENT_END = 1
 def get_students_count(events: List[Tuple[int, int, int]], students_count: int) -> Tuple[int, List[int]]:
     """
     Функция которая вычисляет необходимое количество билетов и вариант раздачи билетов.
-        Параметры:
-            :param events: список событий в котором указаны координата студента, тип события, порядковый номер студента
-            :type events: List[Tuple[int, int, int]]
-            :param students_count: количество студентов
-            :type students_count: int
-        Возвращаемое значение:
-            :return: количество билетов, список с вариантом раздачи билетов
-            :rtype: Tuple[int, List[int]]
+
+    :param events: список событий в котором указаны координата студента, тип события, порядковый номер студента
+    :type events: List[Tuple[int, int, int]]
+    :param students_count: количество студентов
+    :type students_count: int
+
+    :return: количество билетов, список с вариантом раздачи билетов
+    :rtype: Tuple[int, List[int]]
     """
     max_exam_number = 0
     reused_tickets = []

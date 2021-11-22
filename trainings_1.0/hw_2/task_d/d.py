@@ -4,12 +4,12 @@ from typing import List
 def check_array(checked_array: List[int]) -> int:
     """
     Функция которая определяет, сколько в списке элементов, которые больше двух своих соседей.
-        Параметры:
-            :param checked_array: проверяемый список с числами
-            :type checked_array: List[int]
-        Возвращаемое значение:
-            :return: количество элементов, которые больше двух своих соседей
-            :rtype: int
+
+    :param checked_array: проверяемый список с числами
+    :type checked_array: List[int]
+
+    :return: количество элементов, которые больше двух своих соседей
+    :rtype: int
     """
     number_count = 0
 

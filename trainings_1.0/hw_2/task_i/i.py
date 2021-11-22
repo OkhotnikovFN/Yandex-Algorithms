@@ -4,16 +4,16 @@ from typing import List, Tuple
 def draw_minefield(rows_count: int, columns_count: int, coord_list: List[Tuple[int, int]]) -> str:
     """
     Функция которая рисует минное поле по заданным размерам поля и координатам мин.
-        Параметры:
-            :param rows_count: количество рядов в минном поле
-            :type rows_count: int
-            :param columns_count: количество столбцов в минном поле
-            :type columns_count: int
-            :param coord_list: координаты мин на минном поле
-            :type coord_list: List[Tuple[int, int]]
-        Возвращаемое значение:
-            :return: строковое представление минного поля
-            :rtype: str
+
+    :param rows_count: количество рядов в минном поле
+    :type rows_count: int
+    :param columns_count: количество столбцов в минном поле
+    :type columns_count: int
+    :param coord_list: координаты мин на минном поле
+    :type coord_list: List[Tuple[int, int]]
+
+    :return: строковое представление минного поля
+    :rtype: str
     """
     field = []
     for _ in range(rows_count):

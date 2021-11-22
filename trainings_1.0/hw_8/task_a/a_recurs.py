@@ -10,9 +10,9 @@ class TreeNode:
         """
         Инициализация нового узла, которому присваивается значение value, но отсутствует информация о родителе
         и отсутствуют потомки.
-            Параметры:
-                :param value: значение узла дерева
-                :type value: Union[int, None]
+
+        :param value: значение узла дерева
+        :type value: Union[int, None]
         """
         self.value = value
         self.parent = None
@@ -37,12 +37,12 @@ class BinTree:
     def add_node(self, new_value: int) -> TreeNode:
         """
         Функция, которая добавляет новый узел в бинарное дерево.
-            Параметры:
-                :param new_value: добавляемое значение
-                :type new_value: int
-            Возвращаемое значение:
-                :return: сущность нового узла
-                :rtype: int
+
+        :param new_value: добавляемое значение
+        :type new_value: int
+
+        :return: сущность нового узла
+        :rtype: int
         """
         result = self._add_node(self.root, new_value)
         return result
@@ -50,14 +50,14 @@ class BinTree:
     def _add_node(self, cur_root: TreeNode, new_value: int) -> TreeNode:
         """
         Функция, которая рекурсивно добавляет новый узел в бинарное дерево.
-            Параметры:
-                :param cur_root: обследуемый узел
-                :type cur_root: TreeNode
-                :param new_value: добавляемое значение
-                :type new_value: int
-            Возвращаемое значение:
-                :return: сущность нового узла
-                :rtype: int
+
+        :param cur_root: обследуемый узел
+        :type cur_root: TreeNode
+        :param new_value: добавляемое значение
+        :type new_value: int
+
+        :return: сущность нового узла
+        :rtype: int
         """
         if cur_root.value is None:
             cur_root.value = new_value
@@ -92,12 +92,12 @@ class BinTree:
 def get_tree_height(input_list: List[int]) -> Tuple[BinTree, int]:
     """
     Функция которая заполняет бинарное дерево и выводит сущность дерева и его высоту.
-        Параметры:
-            :param input_list: последовательность чисел из которых необходимо построить дерево
-            :type input_list: List[int]
-        Возвращаемое значение:
-            :return: сущность дерева и его высота
-            :rtype: int
+
+    :param input_list: последовательность чисел из которых необходимо построить дерево
+    :type input_list: List[int]
+
+    :return: сущность дерева и его высота
+    :rtype: int
     """
     bin_tree = BinTree()
     for num in input_list[:-1]:

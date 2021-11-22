@@ -1,14 +1,14 @@
 def get_errors_count(words_dict: dict, text: str) -> int:
     """
     Функция которая определяет количество ошибок в тексте.
-        Параметры:
-            :param words_dict: словарь слов с правильно расставленными ударениями
-            :type words_dict: dict
-            :param text: проверяемый текст
-            :type text: str
-        Возвращаемое значение:
-            :return: количество найденных ошибок
-            :rtype: int
+
+    :param words_dict: словарь слов с правильно расставленными ударениями
+    :type words_dict: dict
+    :param text: проверяемый текст
+    :type text: str
+
+    :return: количество найденных ошибок
+    :rtype: int
     """
     errors_count = 0
     for word in text.split():

@@ -8,19 +8,19 @@ def get_min_blocks_count(events: List[Tuple[List[int], int, int, int]], blocks_c
                          complex_width: int, complex_length: int) -> Union[str, Tuple[str, int, Set[int]]]:
     """
     Функция которая вычисляет минимально необходимое количество блоков.
-        Параметры:
-            :param events: список событий, в котором указаны, высота, тип события (начало, конец блока),
-            площадь блока по осям x и y, индекс блока
-            :type events: List[Tuple[List[int], int, int, int]]
-            :param blocks_count: исходное количество блоков
-            :type blocks_count: int
-            :param complex_width: ширина комплекса
-            :type complex_width: int
-            :param complex_length: длина комплекса
-            :type complex_length: int
-        Возвращаемое значение:
-            :return: ответ, возможно ли это сделать и если да, то количество блоков и множество этих блоков
-            :rtype: Union[str, Tuple[str, int, Set[int]]]
+
+    :param events: список событий, в котором указаны, высота, тип события (начало, конец блока),
+    площадь блока по осям x и y, индекс блока
+    :type events: List[Tuple[List[int], int, int, int]]
+    :param blocks_count: исходное количество блоков
+    :type blocks_count: int
+    :param complex_width: ширина комплекса
+    :type complex_width: int
+    :param complex_length: длина комплекса
+    :type complex_length: int
+
+    :return: ответ, возможно ли это сделать и если да, то количество блоков и множество этих блоков
+    :rtype: Union[str, Tuple[str, int, Set[int]]]
     """
     total_area = complex_width * complex_length
     min_used = blocks_count + 1

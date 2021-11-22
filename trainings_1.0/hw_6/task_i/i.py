@@ -4,16 +4,16 @@ from typing import List, Callable, Tuple
 def check(inconvenience: int, params: Tuple[int, int, List[int]]) -> bool:
     """
     Функция которая вычисляет наименьшее возможное значение максимального числа неудобства сформированных бригад.
-        Параметры:
-            :param inconvenience: предполагаемое число неудобства
-            :type inconvenience: int
-            :param params: Tuple с параметрами из условия задачи
-            (количество бригад, количество человек в бригаде, список ростов людей)
-            :type params: Tuple[int, int, List[int]
-        Возвращаемое значение:
-            :return: проверяет возможное число неудобства в бригаде inconvenience
-            возвращает True, если количество бригад получилось больше или равно требуемому
-            :rtype: bool
+
+    :param inconvenience: предполагаемое число неудобства
+    :type inconvenience: int
+    :param params: Tuple с параметрами из условия задачи
+    (количество бригад, количество человек в бригаде, список ростов людей)
+    :type params: Tuple[int, int, List[int]
+
+    :return: проверяет возможное число неудобства в бригаде inconvenience
+    возвращает True, если количество бригад получилось больше или равно требуемому
+    :rtype: bool
     """
     required_brigades_count, hum_per_brig, heights = params
     i = 0

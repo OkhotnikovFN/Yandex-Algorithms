@@ -13,11 +13,11 @@ class GenealogicalTreeNode:
     def update_depth(self, increment) -> None:
         """
         Функция которая обновляет глубину узла и своих потомков.
-            Параметры:
-                :param increment: значение, на которое необходимо увеличить глубину
-                :type increment: List[List[str]
-            Возвращаемое значение:
-                :return: None
+
+        :param increment: значение, на которое необходимо увеличить глубину
+        :type increment: List[List[str]
+
+        :return: None
         """
         self.depth += increment
         for child in self.children:
@@ -27,12 +27,12 @@ class GenealogicalTreeNode:
 def get_nodes_depth(input_list: List[List[str]]) -> List[Tuple[str, int]]:
     """
     Функция которая находит количество всех потомков для родителя.
-        Параметры:
-            :param input_list: последовательность пар значений (имя потомка, имя родителя)
-            :type input_list: List[List[str]
-        Возвращаемое значение:
-            :return: список с парами значений (имя, количество потомков)
-            :rtype: bool
+
+    :param input_list: последовательность пар значений (имя потомка, имя родителя)
+    :type input_list: List[List[str]
+
+    :return: список с парами значений (имя, количество потомков)
+    :rtype: bool
     """
     family_tree = {}
     for descendant, parent in input_list:

@@ -7,12 +7,12 @@ NUMBERS_COUNT = 4
 def check_numbers(numbers: List[str]) -> List[str]:
     """
     Функция которая сравнивает новый номер, с номерами, которые уже есть в телефоне.
-        Параметры:
-            :param numbers: список всех номеров, первый номер в списке - это новый номер
-            :type numbers: List[str]
-        Возвращаемое значение:
-            :return: список с ответами, совпадает ли новый номер с номером в телефоне.
-            :rtype numbers: List[str]
+
+    :param numbers: список всех номеров, первый номер в списке - это новый номер
+    :type numbers: List[str]
+
+    :return: список с ответами, совпадает ли новый номер с номером в телефоне.
+    :rtype numbers: List[str]
     """
     new_number = numbers[0]
     answers = []
@@ -27,12 +27,12 @@ def check_numbers(numbers: List[str]) -> List[str]:
 def bring_number_to_standard(number: str) -> str:
     """
     Функция которая приводит вид телефонного номера к стандарту.
-        Параметры:
-            :param number: телефонный номер в произвольном виде
-            :type number: str
-        Возвращаемое значение:
-            :return: телефонный номер приведенный к стандарту
-            :rtype: str
+
+    :param number: телефонный номер в произвольном виде
+    :type number: str
+
+    :return: телефонный номер приведенный к стандарту
+    :rtype: str
     """
     number = number.replace('-', '').replace('(', '').replace(')', '')
     if number.startswith('+7'):

@@ -5,14 +5,14 @@ from typing import Tuple
 def find_substring(input_str: str, k: int) -> Tuple[int, int]:
     """
     Функция которая находит максимальную по длине подстроку данной строки.
-        Параметры:
-            :param input_str: исходная строка
-            :type input_str: str
-            :param k: максимальное количество вхождений символа в искомую подстроку
-            :type k: int
-        Возвращаемое значение:
-            :return: длинна искомой подстроки и номер её первого символа
-            :rtype: Tuple[int, int]
+
+    :param input_str: исходная строка
+    :type input_str: str
+    :param k: максимальное количество вхождений символа в искомую подстроку
+    :type k: int
+
+    :return: длинна искомой подстроки и номер её первого символа
+    :rtype: Tuple[int, int]
     """
     best_result = (float('-inf'), 0)
     left = 0

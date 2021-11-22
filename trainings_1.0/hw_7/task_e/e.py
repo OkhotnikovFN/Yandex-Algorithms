@@ -7,14 +7,14 @@ BOX_OFFICE_OPEN = 1
 def get_offices_count(events: List[Tuple[int, int, int]], offices_count: int) -> int:
     """
     Функция которая вычисляет суммарное время, которое работаю все кассы.
-        Параметры:
-            :param events: список событий в которых указан момент времени, тип события, номер кассы
-            :type events: List[Tuple[int, int, int]]
-            :param offices_count: количество не круглосуточно работающих офисов
-            :type offices_count: int
-        Возвращаемое значение:
-            :return: суммарное время, когда работаю все кассы
-            :rtype: int
+
+    :param events: список событий в которых указан момент времени, тип события, номер кассы
+    :type events: List[Tuple[int, int, int]]
+    :param offices_count: количество не круглосуточно работающих офисов
+    :type offices_count: int
+
+    :return: суммарное время, когда работаю все кассы
+    :rtype: int
     """
     if offices_count == 0:
         return 24 * 60

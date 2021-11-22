@@ -4,17 +4,17 @@ from typing import Union
 def check_solution(a: int, b: int, c: int) -> Union[str, int]:
     """
     Функция которая проверяет есть ли целочисленные решения уравнения.
-        Параметры:
-            :param a: коэффициент уравнения
-            :type a: int
-            :param b: коэффициент уравнения
-            :type b: int
-            :param c: коэффициент уравнения
-            :type c: int
-        Возвращаемое значение:
-            :return: ответ, если он имеется, или NO SOLUTION ,
-            если решений нет, если решений бесконечно много - MANY SOLUTIONS.
-            :rtype: Union[str, int]
+
+    :param a: коэффициент уравнения
+    :type a: int
+    :param b: коэффициент уравнения
+    :type b: int
+    :param c: коэффициент уравнения
+    :type c: int
+
+    :return: ответ, если он имеется, или NO SOLUTION ,
+    если решений нет, если решений бесконечно много - MANY SOLUTIONS.
+    :rtype: Union[str, int]
     """
     if c < 0:
         answer = 'NO SOLUTION'

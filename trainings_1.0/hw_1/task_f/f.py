@@ -4,14 +4,14 @@ from typing import Tuple
 def calc_square(a: int, b: int) -> int:
     """
     Функция которая вычисляет площадь по двум сторонам.
-        Параметры:
-            :param a: 1-ая сторона
-            :type a: int
-            :param b: 2-ая сторона
-            :type b: int
-        Возвращаемое значение:
-            :return: площадь
-            :rtype: int
+
+    :param a: 1-ая сторона
+    :type a: int
+    :param b: 2-ая сторона
+    :type b: int
+
+    :return: площадь
+    :rtype: int
     """
     return a * b
 

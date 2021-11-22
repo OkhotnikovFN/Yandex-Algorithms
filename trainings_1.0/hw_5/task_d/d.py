@@ -4,16 +4,16 @@ from typing import List
 def get_count_possible_ways(n: int, r: int, monuments: List[int]) -> int:
     """
     Функция которая вычисляет количество способов выбрать два различных памятника для организации свиданий.
-        Параметры:
-            :param n: количество памятников
-            :type n: int
-            :param r: минимальное расстояние видимости
-            :type r: int
-            :param monuments: список расстояний от i-го памятника до начала улицы
-            :type monuments: List[int]
-        Возвращаемое значение:
-            :return: количество возможных способов
-            :rtype: int
+
+    :param n: количество памятников
+    :type n: int
+    :param r: минимальное расстояние видимости
+    :type r: int
+    :param monuments: список расстояний от i-го памятника до начала улицы
+    :type monuments: List[int]
+
+    :return: количество возможных способов
+    :rtype: int
     """
     result = 0
     start = 0

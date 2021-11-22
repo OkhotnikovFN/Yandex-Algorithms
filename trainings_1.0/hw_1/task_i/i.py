@@ -1,20 +1,20 @@
 def check_brick(a: int, b: int, c: int, d: int, e: int) -> str:
     """
     Функция которая проверяет пролезет ли кирпич в отверстие в стене.
-        Параметры:
-            :param a: 1-ая сторона кирпича
-            :type a: int
-            :param b: 2-ая сторона кирпича
-            :type b: int
-            :param c: 3-ая сторона кирпича
-            :type c: int
-            :param d: 1-ая сторона отверстия
-            :type d: int
-            :param e: 2-ая сторона отверстия
-            :type e: int
-        Возвращаемое значение:
-            :return: количество деталей
-            :rtype: Union[Tuple[int, int], int]
+
+    :param a: 1-ая сторона кирпича
+    :type a: int
+    :param b: 2-ая сторона кирпича
+    :type b: int
+    :param c: 3-ая сторона кирпича
+    :type c: int
+    :param d: 1-ая сторона отверстия
+    :type d: int
+    :param e: 2-ая сторона отверстия
+    :type e: int
+
+    :return: количество деталей
+    :rtype: Union[Tuple[int, int], int]
     """
     a, b, c = sorted((a, b, c))
     d, e = sorted((d, e))

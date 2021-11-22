@@ -4,12 +4,12 @@ from typing import List
 def get_count_number_of_repetitions(file_name: str) -> List[int]:
     """
     Функция которая считывает текст и проверяет сколько раз слово встречалось в тексте ранее.
-        Параметры:
-            :param file_name: название файла
-            :type file_name: str
-        Возвращаемое значение:
-            :return: список с ответами
-            :rtype: List[int]
+
+    :param file_name: название файла
+    :type file_name: str
+
+    :return: список с ответами
+    :rtype: List[int]
     """
     answer = []
     words_dict = {}

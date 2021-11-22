@@ -1,16 +1,16 @@
 def determine_temperature(mode: str, t_room: int, t_cond: int) -> int:
     """
     Функция определения температуры в комнате.
-        Параметры:
-            :param mode: режим работы кондиционера
-            :type mode: str
-            :param t_room: температура в комнате
-            :type t_room: int
-            :param t_cond: температура установленная на кондиционере
-            :type t_cond: int
-        Возвращаемое значение:
-            :return: температура в комнате через час
-            :rtype: int
+
+    :param mode: режим работы кондиционера
+    :type mode: str
+    :param t_room: температура в комнате
+    :type t_room: int
+    :param t_cond: температура установленная на кондиционере
+    :type t_cond: int
+
+    :return: температура в комнате через час
+    :rtype: int
     """
     if mode == 'auto' or (mode == 'heat' and t_room < t_cond) or (mode == 'freeze' and t_room > t_cond):
         t_room_final = t_cond

@@ -4,16 +4,16 @@ from typing import List
 def get_count_cars_sets(cars_count: int, number: int, cars_list: List[int]) -> int:
     """
     Функция которая определяет количество наборов машин сумма номеров которых равна number.
-        Параметры:
-            :param cars_count: количество машин
-            :type cars_count: int
-            :param number: счастливое число
-            :type number: int
-            :param cars_list: список машин
-            :type cars_list: List[int]
-        Возвращаемое значение:
-            :return: количество наборов машин сумма номеров которых равна number
-            :rtype: int
+
+    :param cars_count: количество машин
+    :type cars_count: int
+    :param number: счастливое число
+    :type number: int
+    :param cars_list: список машин
+    :type cars_list: List[int]
+
+    :return: количество наборов машин сумма номеров которых равна number
+    :rtype: int
     """
     cars_list_sum = [0]
     sum_elem = 0

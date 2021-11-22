@@ -13,11 +13,11 @@ class GenealogicalTreeNode:
     def update_descendants_count(self, increment: int) -> None:
         """
         Функция которая обновляет количество потомков у родителя.
-            Параметры:
-                :param increment: количество на сколько необходимо увеличить
-                :type increment: int
-            Возвращаемое значение:
-                :return: None
+
+        :param increment: количество на сколько необходимо увеличить
+        :type increment: int
+
+        :return: None
         """
         cur_node = self
         self.descendants_count += increment
@@ -29,12 +29,12 @@ class GenealogicalTreeNode:
 def find_descendants_count(input_list: List[List[str]]) -> List[Tuple[str, int]]:
     """
     Функция которая находит количество всех потомков для родителя.
-        Параметры:
-            :param input_list: последовательность пар значений (имя потомка, имя родителя)
-            :type input_list: List[List[str]
-        Возвращаемое значение:
-            :return: список с парами значений (имя, количество потомков)
-            :rtype: bool
+
+    :param input_list: последовательность пар значений (имя потомка, имя родителя)
+    :type input_list: List[List[str]
+
+    :return: список с парами значений (имя, количество потомков)
+    :rtype: bool
     """
     family_tree = {}
     for descendant, parent in input_list:

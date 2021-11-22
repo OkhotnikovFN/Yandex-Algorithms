@@ -1,12 +1,12 @@
 def get_word(file_name) -> str:
     """
     Функция которая находит наиболее встречающееся слово в тексте.
-        Параметры:
-            :param file_name: имя файла с текстом
-            :type file_name: str
-        Возвращаемое значение:
-            :return: наиболее встречающееся слово
-            :rtype: str
+
+    :param file_name: имя файла с текстом
+    :type file_name: str
+
+    :return: наиболее встречающееся слово
+    :rtype: str
     """
     max_entries = 0
     words_dict = {}

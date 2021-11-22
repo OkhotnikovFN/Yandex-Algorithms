@@ -1,14 +1,14 @@
 def check_genome_matching(genome_1: str, genome_2: str) -> int:
     """
     Функция которая проверяет степень близости genome_1 к genome_2.
-        Параметры:
-            :param genome_1: первый геном
-            :type genome_1: str
-            :param genome_2: второй геном
-            :type genome_2: str
-        Возвращаемое значение:
-            :return: степень близости genome_1 к genome_2
-            :rtype: int
+
+    :param genome_1: первый геном
+    :type genome_1: str
+    :param genome_2: второй геном
+    :type genome_2: str
+
+    :return: степень близости genome_1 к genome_2
+    :rtype: int
     """
     result = 0
     set_genome_2 = set()

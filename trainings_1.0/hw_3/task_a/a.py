@@ -4,12 +4,12 @@ from typing import List
 def get_count_uniq_numbers(input_list: List[int]) -> int:
     """
     Функция которая проверяет количество уникальных чисел в списке.
-        Параметры:
-            :param input_list: список который необходимо проверить
-            :type input_list: List[int]
-        Возвращаемое значение:
-            :return: количество уникальных чисел в списке
-            :rtype: int
+
+    :param input_list: список который необходимо проверить
+    :type input_list: List[int]
+
+    :return: количество уникальных чисел в списке
+    :rtype: int
     """
     return len(set(input_list))
 

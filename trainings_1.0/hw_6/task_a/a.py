@@ -4,16 +4,16 @@ from typing import List
 def bin_search(number: int, input_list: List[int], length_input_list: int) -> str:
     """
     Функция бинарного поиска элемента в списке.
-        Параметры:
-            :param input_list: отсортированный список с числами
-            :type input_list: List[int]
-            :param number: искомое число
-            :type number: int
-            :param length_input_list: длинна input_list
-            :type length_input_list: int
-        Возвращаемое значение:
-            :return: строковый ответ, присутствия элемента в списке
-            :rtype: str
+
+    :param input_list: отсортированный список с числами
+    :type input_list: List[int]
+    :param number: искомое число
+    :type number: int
+    :param length_input_list: длинна input_list
+    :type length_input_list: int
+
+    :return: строковый ответ, присутствия элемента в списке
+    :rtype: str
     """
     left = 0
     right = length_input_list - 1

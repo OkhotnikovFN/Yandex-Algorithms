@@ -4,12 +4,12 @@ import sys
 def get_count_uniq_words(text: str) -> int:
     """
     Функция которая определяет количество уникальных слов в тексте.
-        Параметры:
-            :param text: входной текст
-            :type text: str
-        Возвращаемое значение:
-            :return: количество уникальных слов в тексте
-            :rtype: int
+
+    :param text: входной текст
+    :type text: str
+
+    :return: количество уникальных слов в тексте
+    :rtype: int
     """
     words_list = text.split()
     words_set = set(words_list)

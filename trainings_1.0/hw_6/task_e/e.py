@@ -1,16 +1,16 @@
 def get_five_count(two_count: int, three_count: int, four_count: int) -> int:
     """
     Функция определения минимального количество пятерок.
-        Параметры:
-            :param two_count: количество двоек
-            :type two_count: int
-            :param three_count: количество троек
-            :type three_count: int
-            :param four_count: количество четверок
-            :type four_count: int
-        Возвращаемое значение:
-            :return: минимальное количество пятерок
-            :rtype: int
+
+    :param two_count: количество двоек
+    :type two_count: int
+    :param three_count: количество троек
+    :type three_count: int
+    :param four_count: количество четверок
+    :type four_count: int
+
+    :return: минимальное количество пятерок
+    :rtype: int
     """
     left = 0
     right = two_count + three_count + four_count + 1

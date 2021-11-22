@@ -5,12 +5,12 @@ DEPARTURE = 1
 def make_minutes(time) -> int:
     """
     Функция которая переводит часы и минуты в минуты.
-        Параметры:
-            :param time: строковое представление времени (hh:mm)
-            :type time: str
-        Возвращаемое значение:
-            :return: количество минут в данном интервале времени
-            :rtype: int
+
+    :param time: строковое представление времени (hh:mm)
+    :type time: str
+
+    :return: количество минут в данном интервале времени
+    :rtype: int
     """
     hours, minutes = time.split(':')
     return int(hours) * 60 + int(minutes)
@@ -19,14 +19,14 @@ def make_minutes(time) -> int:
 def get_required_busses_count(cities_count: int, routes_count: int) -> int:
     """
     Функция которая вычисляет минимально необходимое количество автобусов.
-        Параметры:
-            :param cities_count: количество городов
-            :type cities_count: int
-            :param routes_count: количество автобусных рейсов
-            :type routes_count:int
-        Возвращаемое значение:
-            :return: минимально необходимое количество автобусов
-            :rtype: int
+
+    :param cities_count: количество городов
+    :type cities_count: int
+    :param routes_count: количество автобусных рейсов
+    :type routes_count:int
+
+    :return: минимально необходимое количество автобусов
+    :rtype: int
     """
     buses_count = [0] * (cities_count + 1)
     buses_balance = [0] * (cities_count + 1)

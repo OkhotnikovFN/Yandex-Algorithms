@@ -4,16 +4,16 @@ from typing import Callable, List
 def get_piece_of_wire_count(wires: List[int], required_wires_count: int, check_func: Callable) -> int:
     """
     Функция которая определяет максимальную длину кусков проводов.
-        Параметры:
-            :param wires: список с длинами исходных проводов
-            :type wires: List[int]
-            :param required_wires_count: необходимое количество проводов
-            :type required_wires_count: int
-            :param check_func: функция проверки условия в бинарном поиске
-            :type check_func: Callable
-        Возвращаемое значение:
-            :return: максимальная длина отрезков
-            :rtype: int
+
+    :param wires: список с длинами исходных проводов
+    :type wires: List[int]
+    :param required_wires_count: необходимое количество проводов
+    :type required_wires_count: int
+    :param check_func: функция проверки условия в бинарном поиске
+    :type check_func: Callable
+
+    :return: максимальная длина отрезков
+    :rtype: int
     """
     left, right = 0, max(wires)
     while left < right:

@@ -5,14 +5,14 @@ from typing import List, Tuple
 def get_squared_distance(a: Tuple[int, int], b: Tuple[int, int]) -> int:
     """
     Функция определяет квадрат расстояния между точками.
-        Параметры:
-            :param a: координаты первой точки
-            :type a: Tuple[int, int]
-            :param b: координаты второй точки
-            :type b: Tuple[int, int]
-        Возвращаемое значение:
-            :return: квадрат расстояния между точками
-            :rtype: int
+
+    :param a: координаты первой точки
+    :type a: Tuple[int, int]
+    :param b: координаты второй точки
+    :type b: Tuple[int, int]
+
+    :return: квадрат расстояния между точками
+    :rtype: int
     """
     return (a[0] - b[0]) ** 2 + (a[1] - b[1]) ** 2
 
@@ -20,12 +20,12 @@ def get_squared_distance(a: Tuple[int, int], b: Tuple[int, int]) -> int:
 def get_triangles_count(points: List[Tuple[int, int]]) -> int:
     """
     Функция определяет количество равнобедренных треугольников.
-        Параметры:
-            :param points: список координат точек
-            :type points: List[Tuple[int, int]
-        Возвращаемое значение:
-            :return: количество равнобедренных треугольников
-            :rtype: int
+
+    :param points: список координат точек
+    :type points: List[Tuple[int, int]
+
+    :return: количество равнобедренных треугольников
+    :rtype: int
     """
     triangles_count = 0
     for first_index, first_point in enumerate(points):

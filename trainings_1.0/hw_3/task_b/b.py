@@ -4,14 +4,14 @@ from typing import List
 def get_count_uniq_numbers(input_list_1: List[int], input_list_2: List[int]) -> List[int]:
     """
     Функция которая выделяет все числа, которые входят как в первый, так и во второй список входных данных.
-        Параметры:
-            :param input_list_1: список который необходимо проверить
-            :type input_list_1: List[int]
-            :param input_list_2: список который необходимо проверить
-            :type input_list_2: List[int]
-        Возвращаемое значение:
-            :return: все числа, которые входят как в первый, так и во второй список в порядке возрастания
-            :rtype: List[int]
+
+    :param input_list_1: список который необходимо проверить
+    :type input_list_1: List[int]
+    :param input_list_2: список который необходимо проверить
+    :type input_list_2: List[int]
+
+    :return: все числа, которые входят как в первый, так и во второй список в порядке возрастания
+    :rtype: List[int]
     """
     set_1 = set(input_list_1)
     set_2 = set(input_list_2)

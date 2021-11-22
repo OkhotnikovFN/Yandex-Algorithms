@@ -4,18 +4,18 @@ from typing import List
 def apps_per_floor(m: int, k: int, p: int, n: int) -> List[int]:
     """
     Функция которая определяет возможное количество квартир на этаже в доме.
-        Параметры:
-            :param m: количество этажей в доме
-            :type m: int
-            :param k: номер квартиры
-            :type k: int
-            :param p: номер подъезда
-            :type p: int
-            :param n: номер этажа
-            :type n: int
-        Возвращаемое значение:
-            :return: список с возможным количеством квартир на этаже
-            :rtype: List[int]
+
+    :param m: количество этажей в доме
+    :type m: int
+    :param k: номер квартиры
+    :type k: int
+    :param p: номер подъезда
+    :type p: int
+    :param n: номер этажа
+    :type n: int
+
+    :return: список с возможным количеством квартир на этаже
+    :rtype: List[int]
     """
     min_bound = k // (m * (p - 1) + n)
     max_bound = (k - 1) // (m * (p - 1) + n - 1)

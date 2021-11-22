@@ -4,14 +4,14 @@ from typing import Tuple, List
 def extend(rect: List[int], d) -> List[int]:
     """
     Функция которая расширяет прямоугольник возможных координат бегуна.
-        Параметры:
-            :param rect: текущий прямоугольник координат
-            :type rect: int
-            :param d: расстояние, на которое увеличивается прямоугольник координат
-            :type d: int
-        Возвращаемое значение:
-            :return: расширенный прямоугольник координат
-            :rtype: List[int]
+
+    :param rect: текущий прямоугольник координат
+    :type rect: int
+    :param d: расстояние, на которое увеличивается прямоугольник координат
+    :type d: int
+
+    :return: расширенный прямоугольник координат
+    :rtype: List[int]
     """
     min_plus, max_plus, min_minus, max_minus = rect
     return [min_plus - d, max_plus + d, min_minus - d, max_minus + d]

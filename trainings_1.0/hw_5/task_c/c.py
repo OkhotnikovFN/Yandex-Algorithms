@@ -4,14 +4,14 @@ from typing import List, Tuple
 def define_treks(n: int, mountains: List[Tuple[int, int]]) -> Tuple[List[int], List[int]]:
     """
     Функция которая определяет два списка с высотами подъемов при движении слева и при движении справа.
-        Параметры:
-            :param n: количество точек ломаной, задающей горную цепь
-            :type n: int
-            :param mountains: список точек ломаной, задающей горную цепь
-            :type mountains: List[Tuple[int, int]
-        Возвращаемое значение:
-            :return: два списка с высотами подъемов при движении слева и при движении справа
-            :rtype: Tuple[List[int], List[int]]
+
+    :param n: количество точек ломаной, задающей горную цепь
+    :type n: int
+    :param mountains: список точек ломаной, задающей горную цепь
+    :type mountains: List[Tuple[int, int]
+
+    :return: два списка с высотами подъемов при движении слева и при движении справа
+    :rtype: Tuple[List[int], List[int]]
     """
     mountains_left = [0]
     for i in range(1, n):

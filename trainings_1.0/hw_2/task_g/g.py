@@ -4,12 +4,12 @@ from typing import Tuple, List
 def find_numbers(numbers_list: List[int]) -> Tuple[int, int]:
     """
     Функция которая находит в списке два числа, произведение которых максимально.
-        Параметры:
-            :param numbers_list: исследуемый список чисел
-            :type numbers_list: List[int]
-        Возвращаемое значение:
-            :return: tuple из двух чисел
-            :rtype: Tuple[int, int]
+
+    :param numbers_list: исследуемый список чисел
+    :type numbers_list: List[int]
+
+    :return: tuple из двух чисел
+    :rtype: Tuple[int, int]
     """
     max_plus = 0
     second_plus = 0

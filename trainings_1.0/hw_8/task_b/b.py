@@ -9,9 +9,9 @@ class TreeNode:
         """
         Инициализация нового узла, которому присваивается значение value, но отсутствует информация о родителе
         и отсутствуют потомки.
-            Параметры:
-                :param value: значение узла дерева
-                :type value: Union[int, None]
+
+        :param value: значение узла дерева
+        :type value: Union[int, None]
         """
         self.value = value
         self.parent = None
@@ -32,16 +32,16 @@ class BinTree:
     def get_or_set_node_child(tree_node: TreeNode, new_node: TreeNode, is_left_child: bool = True) -> TreeNode:
         """
         Функция, которая получает или устанавливает левого потомка для узла дерева tree_node.
-            Параметры:
-                :param tree_node: узел дерева
-                :type tree_node: TreeNode
-                :param new_node: новый левый потомок
-                :type new_node: TreeNode
-                :param is_left_child: булево значение, является ли потомок левым
-                :type is_left_child: bool
-            Возвращаемое значение:
-                :return: текущий левый потомок узла дерева tree_node
-                :rtype: TreeNode
+
+        :param tree_node: узел дерева
+        :type tree_node: TreeNode
+        :param new_node: новый левый потомок
+        :type new_node: TreeNode
+        :param is_left_child: булево значение, является ли потомок левым
+        :type is_left_child: bool
+
+        :return: текущий левый потомок узла дерева tree_node
+        :rtype: TreeNode
         """
         if is_left_child:
             node_child = tree_node.left
@@ -62,12 +62,12 @@ class BinTree:
     def add_node(self, new_value: int) -> Tuple[TreeNode, bool]:
         """
         Функция, которая добавляет новый узел в бинарное дерево и вычисляет новую получившуюся высоту.
-            Параметры:
-                :param new_value: добавляемое значение
-                :type new_value: int
-            Возвращаемое значение:
-                :return: сущность нового узла и флаг добавления узла в дерево
-                :rtype: int
+
+        :param new_value: добавляемое значение
+        :type new_value: int
+
+        :return: сущность нового узла и флаг добавления узла в дерево
+        :rtype: int
         """
         add_flag = True
         new_node = TreeNode(None)
@@ -94,12 +94,12 @@ def get_nodes_heights(input_list: List[int]) -> Tuple[BinTree, List[int]]:
     """
     Функция которая заполняет бинарное дерево и выводит сущность дерева и
     список высот каждого узла, в порядке их добавления.
-        Параметры:
-            :param input_list: последовательность чисел из которых необходимо построить дерево
-            :type input_list: List[int]
-        Возвращаемое значение:
-            :return: сущность дерева и его высота
-            :rtype: int
+
+    :param input_list: последовательность чисел из которых необходимо построить дерево
+    :type input_list: List[int]
+
+    :return: сущность дерева и его высота
+    :rtype: int
     """
     bin_tree = BinTree()
     result = []

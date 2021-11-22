@@ -5,14 +5,14 @@ def get_time_for_blow(balloons_count: int, people_count: int) -> Tuple[int, List
     """
     Функция которая вычисляет необходимое время для надувания всех шариков
     и выводи список, кто сколько шариков надул.
-        Параметры:
-            :param balloons_count: необходимое количество шариков
-            :type balloons_count: int
-            :param people_count: количество людей, надувающих шарики
-            :type people_count: int
-        Возвращаемое значение:
-            :return: необходимое время и список с количеством надутых шариков
-            :rtype: Tuple[int, List[int]
+
+    :param balloons_count: необходимое количество шариков
+    :type balloons_count: int
+    :param people_count: количество людей, надувающих шарики
+    :type people_count: int
+
+    :return: необходимое время и список с количеством надутых шариков
+    :rtype: Tuple[int, List[int]
     """
     people = [0] * people_count
 

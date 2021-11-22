@@ -4,14 +4,14 @@ from typing import List
 def find_nearest_number(checked_array: List[int], checked_number: int) -> int:
     """
     Функция которая находит в списке число, самое близкое по величине к  данному числу.
-        Параметры:
-            :param checked_array: список с числами
-            :type checked_array: List[int]
-            :param checked_number: число, с которым необходимо сравнить список
-            :type checked_number: int
-        Возвращаемое значение:
-            :return: значение числа, самого близкого к данному
-            :rtype: int
+
+    :param checked_array: список с числами
+    :type checked_array: List[int]
+    :param checked_number: число, с которым необходимо сравнить список
+    :type checked_number: int
+
+    :return: значение числа, самого близкого к данному
+    :rtype: int
     """
     difference = abs(checked_array[0] - checked_number)
     nearest_number = checked_array[0]

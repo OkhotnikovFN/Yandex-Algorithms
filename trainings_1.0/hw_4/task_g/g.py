@@ -4,12 +4,12 @@ from typing import List, Union
 def get_balance(file_name: str) -> List[Union[int, str]]:
     """
     Функция которая вычисляет баланс для каждого клиента банка.
-        Параметры:
-            :param file_name: имя считываемого файла
-            :type file_name: str
-        Возвращаемое значение:
-            :return: список балансов клиентов
-            :rtype: List[]
+
+    :param file_name: имя считываемого файла
+    :type file_name: str
+
+    :return: список балансов клиентов
+    :rtype: List[]
     """
     result = []
     clients = {}
