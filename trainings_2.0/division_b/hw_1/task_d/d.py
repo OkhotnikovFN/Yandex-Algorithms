@@ -1,20 +1,28 @@
-def my_func():
+from typing import List
+
+
+def my_func(coord: List[int], n_count: int) -> int:
     """
-    Функция которая.
+    Функция которая определяет лучшее положение школы.
 
-    :param :
-    :type :
+    :param coord: список координат домов
+    :type coord: List[int]
+    :param n_count: количество домов
+    :type n_count: int
 
-    :return:
-    :rtype:
+    :return: координаты школы
+    :rtype int:
     """
-
-    return
+    if n_count % 2:
+        return coord[n_count // 2]
+    return round((coord[n_count // 2] + coord[n_count // 2 - 1]) / 2)
 
 
 def main():
     """Основная функция для чтения входных данных и вывода результата."""
-    print(my_func())
+    N = int(input())
+    coord = list(map(int, input().split()))
+    print(my_func(coord, N))
 
 
 if __name__ == '__main__':
