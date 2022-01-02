@@ -1,13 +1,13 @@
-# []()
+# [Яндекс. Тренировки по алгоритмам 2.0, занятие 8 (B)](https://contest.yandex.ru/contest/29403/enter/)
 
 ---
 ## Контесты
 
-- [A. ]()
-- [B. ]()
-- [C. ]()
-- [D. ]()
-- [E. ]()
+- [A. Бинарное дерево (вставка, поиск, обход)](https://contest.yandex.ru/contest/29403/problems/A/)
+- [B. Родословная: предки и потомки](https://contest.yandex.ru/contest/29403/problems/B/)
+- [C. Родословная: LCA](https://contest.yandex.ru/contest/29403/problems/C/)
+- [D. Бусинки](https://contest.yandex.ru/contest/29403/problems/D/)
+- [E. Дерево Хаффмана](https://contest.yandex.ru/contest/29403/problems/E/)
 
 ---
 ## Решения задач

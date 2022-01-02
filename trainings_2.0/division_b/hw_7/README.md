@@ -1,13 +1,13 @@
-# []()
+# [Яндекс. Тренировки по алгоритмам 2.0, занятие 7 (B)](https://contest.yandex.ru/contest/29396/enter/)
 
 ---
 ## Контесты
 
-- [A. ]()
-- [B. ]()
-- [C. ]()
-- [D. ]()
-- [E. ]()
+- [A. Закраска прямой](https://contest.yandex.ru/contest/29396/problems/A/)
+- [B. Таможня](https://contest.yandex.ru/contest/29396/problems/B/)
+- [C. Минимальное покрытие](https://contest.yandex.ru/contest/29396/problems/C/)
+- [D. Наполненность котятами](https://contest.yandex.ru/contest/29396/problems/D/)
+- [E. Полярные прямоугольники](https://contest.yandex.ru/contest/29396/problems/E/)
 
 ---
 ## Решения задач

@@ -1,13 +1,13 @@
-# []()
+# [Яндекс. Тренировки по алгоритмам 2.0, занятие 2 (B)](https://contest.yandex.ru/contest/28738/enter/)
 
 ---
 ## Контесты
 
-- [A. ]()
-- [B. ]()
-- [C. ]()
-- [D. ]()
-- [E. ]()
+- [A. Количество равных максимальному](https://contest.yandex.ru/contest/28738/problems/A/)
+- [B. Дома и магазины](https://contest.yandex.ru/contest/28738/problems/B/)
+- [C. Изготовление палиндромов](https://contest.yandex.ru/contest/28738/problems/C/)
+- [D. Лавочки в атриуме](https://contest.yandex.ru/contest/28738/problems/D/)
+- [E. Дипломы в папках](https://contest.yandex.ru/contest/28738/problems/E/)
 
 ---
 ## Решения задач
