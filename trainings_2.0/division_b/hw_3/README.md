@@ -12,8 +12,8 @@
 ---
 ## Решения задач
 
-- [A. (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_a/hw_3/task_a)
-- [B. (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_a/hw_3/task_b)
-- [C. (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_a/hw_3/task_c)
-- [D. (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_a/hw_3/task_d)
-- [E. (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_a/hw_3/task_e)
+- [A. Количество совпадающих](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_a/hw_3/task_a)
+- [B. Встречалось ли число раньше](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_a/hw_3/task_b)
+- [C. Уникальные элементы](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_a/hw_3/task_c)
+- [D. Угадай число](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_a/hw_3/task_d)
+- [E. Автомобильные номера](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_a/hw_3/task_e)
