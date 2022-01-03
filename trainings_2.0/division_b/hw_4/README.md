@@ -12,9 +12,9 @@
 ---
 ## Решения задач
 
-- [A. (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_4/task_a)
-- [B. (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_4/task_b)
-- [C. (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_4/task_c)
-- [D. (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_4/task_d)
-- [E. (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_4/task_e)
+- [A. Толя-Карп и новый набор структур, часть 2](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_4/task_a)
+- [B. Выборы в США](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_4/task_b)
+- [C. Частотный анализ](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_4/task_c)
+- [D. Выборы Государственной Думы](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_4/task_d)
+- [E. Форум](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_4/task_e)
 
