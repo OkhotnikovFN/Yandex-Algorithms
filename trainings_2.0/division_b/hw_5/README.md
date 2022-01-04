@@ -12,9 +12,8 @@
 ---
 ## Решения задач
 
-- [A. (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_5/task_a)
-- [B. (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_5/task_b)
-- [C. (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_5/task_c)
-- [D. (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_5/task_d)
-- [E. (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_5/task_e)
-
+- [A. Префиксные суммы](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_5/task_a)
+- [B. Максимальная сумма](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_5/task_b)
+- [C. Каждому по компьютеру](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_5/task_c)
+- [D. Правильная, круглая, скобочная](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_5/task_d)
+- [E. Сумма трёх](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_5/task_e)

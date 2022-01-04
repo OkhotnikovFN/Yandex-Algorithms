@@ -1,20 +1,38 @@
-def my_func():
+from typing import List
+
+
+def find_max_sum(input_array: List[int]) -> int:
     """
-    Функция которая.
+    Функция которая вычисляет максимальную сумму на отрезке в данном массиве.
 
-    :param :
-    :type :
+    :param input_array: входной массив
+    :type input_array: List[int]
 
-    :return:
-    :rtype:
+    :return: максимальная сумма
+    :rtype: int
     """
+    prefix_sum = []
+    prev = 0
 
-    return
+    for num in input_array:
+        prev += num
+        if prev < 0:
+            prev = 0
+        else:
+            prefix_sum.append(prev)
+
+    if not prefix_sum:
+        return max(input_array)
+    else:
+        return max(prefix_sum)
 
 
 def main():
     """Основная функция для чтения входных данных и вывода результата."""
-    print(my_func())
+
+    n = int(input())
+    input_array = list(map(int, input().split()))
+    print(find_max_sum(input_array))
 
 
 if __name__ == '__main__':
