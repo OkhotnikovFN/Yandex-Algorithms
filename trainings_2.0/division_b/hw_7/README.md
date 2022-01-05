@@ -12,8 +12,8 @@
 ---
 ## Решения задач
 
-- [A. (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_7/task_a)
-- [B. (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_7/task_b)
-- [C. (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_7/task_c)
-- [D. (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_7/task_d)
-- [E. (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_7/task_e)
+- [A. Закраска прямой](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_7/task_a)
+- [B. Таможня](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_7/task_b)
+- [C. Минимальное покрытие](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_7/task_c)
+- [D. Наполненность котятами](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_7/task_d)
+- [E. Полярные прямоугольники](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_7/task_e)

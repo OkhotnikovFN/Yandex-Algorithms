@@ -1,20 +1,49 @@
-def my_func():
+from typing import List, Tuple
+
+LEFT = 1
+RIGHT = -1
+
+
+def get_pointed_length(pointed_segments: List[Tuple[int, int]]) -> int:
     """
-    Функция которая.
+    Функция которая вычисляет длину окрашенной части прямой.
 
-    :param :
-    :type :
+    :param pointed_segments: список с точками начала и конца окрашенных сегментов
+    :type pointed_segments: List[Tuple[int, int]]
 
-    :return:
-    :rtype:
+    :return: общая длинна окрашенных сегментов
+    :rtype: int
     """
+    length = 0
+    segments_intersection = 0
+    left = None
+    right = None
+    for segment in pointed_segments:
+        segments_intersection += segment[1]
+        if left is None and segment[1] == LEFT:
+            left = segment[0]
+        if segment[1] == RIGHT:
+            right = segment[0]
+        if segments_intersection == 0:
+            length += right - left
+            left = None
+            right = None
 
-    return
+    return length
 
 
 def main():
     """Основная функция для чтения входных данных и вывода результата."""
-    print(my_func())
+    N = int(input())
+
+    pointed_segments = []
+    for _ in range(N):
+        L, R = map(int, input().split())
+        pointed_segments.append((L, LEFT))
+        pointed_segments.append((R, RIGHT))
+    pointed_segments.sort()
+
+    print(get_pointed_length(pointed_segments))
 
 
 if __name__ == '__main__':

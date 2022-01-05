@@ -16,10 +16,10 @@
 ## Решения контестов
 
 - [Решение ДЗ к лекции 1](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_1)
-- [Решение ДЗ к лекции 2 (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_2)
-- [Решение ДЗ к лекции 3 (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_3)
-- [Решение ДЗ к лекции 4 (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_4)
-- [Решение ДЗ к лекции 5 (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_5)
-- [Решение ДЗ к лекции 6 (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_6)
-- [Решение ДЗ к лекции 7 (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_7)
+- [Решение ДЗ к лекции 2](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_2)
+- [Решение ДЗ к лекции 3](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_3)
+- [Решение ДЗ к лекции 4](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_4)
+- [Решение ДЗ к лекции 5](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_5)
+- [Решение ДЗ к лекции 6](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_6)
+- [Решение ДЗ к лекции 7](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_7)
 - [Решение ДЗ к лекции 8 (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_8)
