@@ -12,9 +12,8 @@
 ---
 ## Решения задач
 
-- [A. (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_8/task_a)
-- [B. (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_8/task_b)
-- [C. (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_8/task_c)
-- [D. (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_8/task_d)
-- [E. (еще не готово)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_8/task_e)
-
+- [A. Бинарное дерево (вставка, поиск, обход)](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_8/task_a)
+- [B. Родословная: предки и потомки](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_8/task_b)
+- [C. Родословная: LCA](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_8/task_c)
+- [D. Бусинки](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_8/task_d)
+- [E. Дерево Хаффмана](https://github.com/OkhotnikovFN/Yandex-Algorithms/tree/main/trainings_2.0/division_b/hw_8/task_e)
